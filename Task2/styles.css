@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200;
+    padding: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-color: #2d0453;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(12, 214, 197);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 11px rgb(252, 252, 255);
+  }
+  
+  input[type="number"] {
+    width: 150px;
+    padding: 8x;
+    border: 3px solid #eee8e4;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 9px 16px;
+    background-color: #fcfcfc;
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  
